@@ -1,0 +1,5 @@
+    <h3>Ingredients</h3>
+    <p  *ngFor='let ingredient of searchService.pickedRecipe.ingredients;index as i;'>
+        {{ingredient}} {{searchService.pickedRecipe.measures[i]}}
+    </p>
+
